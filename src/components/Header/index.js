@@ -1,8 +1,8 @@
 'use client'
-
+import React from 'react';
 import Nav from './styles';
 
-function header() {
+export default function header() {
     return(
         <Nav>
             <ul>
@@ -19,5 +19,3 @@ function header() {
         </Nav>
     )
 };
-
-export default header;
